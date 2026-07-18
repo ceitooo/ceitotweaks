@@ -5,8 +5,8 @@
 **Optimización de Windows en un click, sin comandos raros ni riesgos innecesarios.**
 
 [![Platform](https://img.shields.io/badge/platform-Windows%2010%20%7C%2011-0078D6?logo=windows&logoColor=white)](#-descarga)
-[![Release](https://img.shields.io/github/v/release/ceitooo/ceitotweaks-releases?label=%C3%BAltima%20versi%C3%B3n&color=8a3ffc)](https://github.com/ceitooo/ceitotweaks-releases/releases/latest)
-[![Downloads](https://img.shields.io/github/downloads/ceitooo/ceitotweaks-releases/total?color=b967ff)](https://github.com/ceitooo/ceitotweaks-releases/releases)
+[![Release](https://img.shields.io/github/v/release/ceitooo/ceitotweaks?label=%C3%BAltima%20versi%C3%B3n&color=8a3ffc)](https://github.com/ceitooo/ceitotweaks/releases/latest)
+[![Downloads](https://img.shields.io/github/downloads/ceitooo/ceitotweaks/total?color=b967ff)](https://github.com/ceitooo/ceitotweaks/releases)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Idiomas](https://img.shields.io/badge/idiomas-7-ff5f8f)](#-idiomas)
 
@@ -26,7 +26,7 @@ Todo con una interfaz clara, en tu idioma, y sin tener que copiar y pegar comand
 
 ## 📥 Descarga
 
-1. Andá a la sección **[Releases](https://github.com/ceitooo/ceitotweaks-releases/releases/latest)**.
+1. Andá a la sección **[Releases](https://github.com/ceitooo/ceitotweaks/releases/latest)**.
 2. Descargá `CeitoTweaks-Setup-X.X.X.exe`.
 3. Ejecutalo (pide permisos de administrador, es necesario para aplicar los tweaks) y seguí el instalador.
 4. Abrí CeitoTweaks. Las próximas versiones se actualizan solas — la app te avisa cuando hay una nueva.
@@ -81,7 +81,7 @@ No, está pensado y probado para Windows 10 y 11.
 
 ## 🤝 Soporte
 
-¿Encontraste un bug o tenés una sugerencia? Abrí un [issue](https://github.com/ceitooo/ceitotweaks-releases/issues).
+¿Encontraste un bug o tenés una sugerencia? Abrí un [issue](https://github.com/ceitooo/ceitotweaks/issues).
 
 ## 📄 Licencia
 
