@@ -1,11 +1,13 @@
 <div align="center">
 
+<img src="docs/logo.png" alt="CeitoTweaks" width="120" />
+
 # CeitoTweaks
 
-**Optimización de Windows en un click, sin comandos raros ni riesgos innecesarios.**
+**Optimización de Windows en un clic, sin comandos raros ni riesgos innecesarios.**
 
 [![Platform](https://img.shields.io/badge/platform-Windows%2010%20%7C%2011-0078D6?logo=windows&logoColor=white)](#-descarga)
-[![Release](https://img.shields.io/github/v/release/ceitooo/ceitotweaks?label=%C3%BAltima%20versi%C3%B3n&color=8a3ffc)](https://github.com/ceitooo/ceitotweaks/releases/latest)
+[![Release](https://img.shields.io/github/v/release/ceitooo/ceitotweaks?label=%C3%BAltima%20versi%C3%B3n&color=8fa3c7)](https://github.com/ceitooo/ceitotweaks/releases/latest)
 [![Downloads](https://img.shields.io/github/downloads/ceitooo/ceitotweaks/total?color=b967ff)](https://github.com/ceitooo/ceitotweaks/releases)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Idiomas](https://img.shields.io/badge/idiomas-7-ff5f8f)](#-idiomas)
@@ -18,7 +20,7 @@
 
 ## ¿Qué es CeitoTweaks?
 
-CeitoTweaks es una app de escritorio para Windows que centraliza en un solo lugar todo lo que normalmente hacés a mano (o con mil scripts distintos de dudosa procedencia) para dejar tu PC más rápida, más limpia y mejor configurada para jugar: tweaks del sistema, desinstalador, gestor de apps de inicio, instalador de programas, limpieza de basura del sistema, puntos de restauración y un modo juego que detecta tu librería de Steam/Epic/Blizzard automáticamente.
+CeitoTweaks es una app de escritorio para Windows que junta en un solo lugar todo lo que normalmente hacés a mano (o con mil scripts de dudosa procedencia) para dejar tu PC más rápida, más limpia y mejor configurada para jugar: más de 220 tweaks, un Modo Juego automático, diagnósticos en vivo, desinstalador, gestor de inicio, instalador de apps, limpieza y puntos de restauración.
 
 Todo con una interfaz clara, en tu idioma, y sin tener que copiar y pegar comandos de PowerShell de un foro.
 
@@ -26,55 +28,71 @@ Todo con una interfaz clara, en tu idioma, y sin tener que copiar y pegar comand
 
 ## 📥 Descarga
 
-1. Andá a la sección **[Releases](https://github.com/ceitooo/ceitotweaks/releases/latest)**.
+1. Andá a **[Releases](https://github.com/ceitooo/ceitotweaks/releases/latest)**.
 2. Descargá `CeitoTweaks-Setup-X.X.X.exe`.
-3. Ejecutalo (pide permisos de administrador, es necesario para aplicar los tweaks) y seguí el instalador.
-4. Abrí CeitoTweaks. Las próximas versiones se actualizan solas — la app te avisa cuando hay una nueva.
+3. Ejecutalo (pide permisos de administrador, hacen falta para aplicar los tweaks) y seguí el instalador.
+4. Abrí CeitoTweaks. Las próximas versiones se actualizan solas: la app te avisa cuando hay una nueva.
 
-> **Requisitos:** Windows 10 o 11 (64 bits), permisos de administrador.
+> **Requisitos:** Windows 10 u 11 (64 bits), permisos de administrador.
 
-> Windows SmartScreen puede advertir que es una app de un "editor desconocido" (no está firmada con un certificado EV, que cuesta cientos de dólares al año). Esto es normal en apps de este estilo hechas por desarrolladores independientes.
+> Windows SmartScreen puede advertir que es una app de un "editor desconocido" (no está firmada con un certificado de pago). Es normal en apps hechas por desarrolladores independientes.
 
 ## ✨ Funciones
 
-### 🛠️ Tweaks del sistema
-Más de **70 optimizaciones** organizadas por categoría (CPU, GPU, memoria, almacenamiento, red, periféricos, drivers, plan de energía, privacidad, prioridad de procesos, calidad de vida) que se activan y desactivan con un toggle, cada una explicada en simple.
+### ⚡ Optimizar todo
+Elegís para qué usás la PC —**Competitivo**, **Streaming** o **Notebook**— y la app aplica de una los tweaks recomendados. Nunca aplica los marcados como Riesgosos, y te ofrece crear un punto de restauración antes.
 
-### 🧹 Debloat y limpieza
-Sacate de encima el bloatware y la basura acumulada de Windows sin tocar nada crítico del sistema.
+### 🛠️ Más de 220 tweaks
+Organizados por tema: **Rendimiento FPS, Gráfica (GPU), Red y WiFi, CPU y memoria, Energía, Windows, Segundo plano, Privacidad, Almacenamiento, Periféricos, BIOS y drivers** y **Priorizar juegos**. Cada uno se activa y desactiva con un botón, está explicado en simple y marcado como **Seguro**, **Precaución** o **Riesgoso**.
 
-### 🎮 Modo Juego
-Detecta automáticamente tu librería de **Steam, Epic Games y Battle.net** y te deja aplicar parámetros de lanzamiento y perfiles de calidad optimizados por juego, sin tener que ir a buscar la carpeta de instalación a mano.
+### 🎮 Modo Juego automático
+Elegís tus juegos una vez y, cuando abrís uno, la app aplica sola sus optimizaciones y además:
+- le da **prioridad alta** al juego,
+- pone el **plan de energía de alto rendimiento**,
+- **silencia las notificaciones** de Windows,
+- y opcionalmente **cierra apps de fondo** (OneDrive, Teams, Phone Link, Widgets).
 
-### 📦 Instalador de programas
-Catálogo de **más de 70 apps** (navegadores, herramientas de desarrollo, launchers de juegos, utilidades, ofimática, drivers de diagnóstico) instalables con un click, más optimización automática de las que ya tenés instaladas.
+Al cerrar el juego todo vuelve a como estaba, y te avisa cuánto jugaste. También detecta tu librería de **Steam, Epic Games y Battle.net** para agregar parámetros de lanzamiento.
 
-### 🖥️ Gestión del sistema
-- Puntos de restauración antes de aplicar cambios riesgosos.
-- Desinstalador de programas.
-- Gestor de apps de inicio (activar/desactivar/eliminar).
-- Test de velocidad de red y detección automática de la mejor región/servidor.
+### 📊 Diagnósticos en vivo
+- Gráfica de **CPU, GPU y RAM** que mide igual que el Administrador de tareas.
+- **Widget flotante** con FPS, CPU, GPU, RAM y temperatura, siempre encima del juego.
+- **Detector de cuello de botella** y **salud del sistema** (drivers viejos, latencia DPC).
+- **Test de velocidad** y ping por región.
+- Comprobador de **driver de GPU** (NVIDIA en vivo; AMD e Intel a su página oficial).
 
-### 🎯 Comprobador de driver de GPU
-Para tarjetas **NVIDIA**, compara en vivo tu driver instalado contra el último disponible (usando el mismo servicio que usa la herramienta oficial de NVIDIA) y te avisa si estás desactualizado. AMD e Intel te llevan directo a la página oficial de detección de su fabricante.
+### 📦 Apps y programas
+Catálogo de **más de 180 apps** (navegadores, launchers, emuladores, streaming, periféricos, utilidades, herramientas de sistema) instalables con un clic, y **Optimizar Apps** para dejar Chrome, Edge, Brave, Opera GX, Discord, Spotify y Steam sin aceleración por hardware ni procesos de fondo.
+
+### 🖥️ Sistema y mantenimiento
+- Desinstalador con detección de restos y escaneo con Windows Defender.
+- Gestor de apps de inicio.
+- Limpieza de temporales y caché, y reparación del sistema (SFC + DISM).
+- Puntos de restauración, backups y "Deshacer todo".
+
+### ✨ Perfil y comunidad
+Perfil con foto, banner y biografía, **logros** que ven todos, **efectos Premium** (nombre en arcoíris, brillo, glitch, fondo en degradé, anillo en la foto), **Modos Community** con configuraciones de otros usuarios y exportar/importar tu configuración.
+
+### 🍃 Liviana
+**Modo liviano** para apagar las animaciones de la propia app y **aceleración por hardware** configurable, para que CeitoTweaks no gaste nada mientras jugás.
 
 ### 🌍 Idiomas
-Español, inglés, ruso, chino, japonés, coreano y portugués — la interfaz se adapta sola.
+Español, inglés, ruso, chino, japonés, coreano y portugués.
 
 ### 🔄 Auto-actualización
-La app se mantiene al día sola: chequea nuevas versiones al abrir y te avisa cuando hay una disponible para instalar.
+La app chequea nuevas versiones al abrir y te avisa cuando hay una disponible.
 
 ## ⭐ Premium
 
-Algunas funciones más avanzadas (ciertos tweaks de rendimiento y el Modo Juego completo) están dentro de un plan **Premium** de pago único, que se activa con una key. El resto de la app —la gran mayoría de los tweaks, el instalador de apps, el debloat, el desinstalador y demás— es **100% gratis**.
+Algunas funciones avanzadas (ciertos tweaks de rendimiento, los parámetros de lanzamiento del Modo Juego, los efectos de perfil y las novedades en beta) están en **Premium**, que se activa con una key. Hay planes desde 1 semana hasta **de por vida**. El resto de la app —la gran mayoría de los tweaks, Optimizar todo, el instalador de apps, el desinstalador y demás— es **100% gratis**.
 
 ## ❓ Preguntas frecuentes
 
 **¿Es seguro?**
-Los tweaks tocan configuraciones estándar de Windows (registro, servicios, plan de energía) de forma reversible. Podés crear un punto de restauración antes de aplicar cambios desde la propia app.
+Los tweaks tocan configuraciones estándar de Windows (registro, servicios, plan de energía) de forma reversible, y cada uno dice si es Seguro, Precaución o Riesgoso. Podés crear un punto de restauración antes de aplicar cambios desde la propia app.
 
 **¿Por qué pide permisos de administrador?**
-Porque varios de los tweaks (servicios, registro a nivel de máquina, plan de energía) requieren privilegios elevados en Windows. Sin admin, esos cambios no se pueden aplicar.
+Porque varios tweaks (servicios, registro a nivel de máquina, plan de energía) requieren privilegios elevados en Windows.
 
 **¿Funciona en Windows 7/8?**
 No, está pensado y probado para Windows 10 y 11.
