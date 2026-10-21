@@ -11,6 +11,7 @@
 [![Downloads](https://img.shields.io/github/downloads/ceitooo/ceitotweaks/total?color=b967ff)](https://github.com/ceitooo/ceitotweaks/releases)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Idiomas](https://img.shields.io/badge/idiomas-7-ff5f8f)](#-idiomas)
+[![Discord](https://img.shields.io/badge/Discord-Comunidad-5865F2?logo=discord&logoColor=white)](https://discord.gg/4Hsfav6wy6)
 
 [Descargar](#-descarga) · [Funciones](#-funciones) · [Suite Gamer](#-suite-gamer-integrada) · [Modo Juego](#-modo-juego-automático) · [Premium](#-premium) · [FAQ](#-preguntas-frecuentes)
 
@@ -176,8 +177,8 @@ No perdés nada. Podés desvincular tu PC anterior con el botón de "Reset HWID"
 ## 🤝 Soporte y Comunidad
 
 ¿Encontraste un problema o querés sugerir una nueva función?
-- Abrí un [Issue en GitHub](https://github.com/ceitooo/ceitotweaks/issues).
-- Unite a nuestra comunidad para novedades y asistencia.
+- 💬 **Discord Oficial:** Unite a nuestra comunidad en [discord.gg/4Hsfav6wy6](https://discord.gg/4Hsfav6wy6) para soporte directo, avisos y novedades.
+- 🐛 **Reportar un bug:** Abrí un [Issue en GitHub](https://github.com/ceitooo/ceitotweaks/issues).
 
 ## 📄 Licencia
 
