@@ -1,0 +1,39 @@
+# Deja en el repo solo la última versión publicada: cada vez que sale una
+# nueva se borran las anteriores (los tags quedan). Antes de borrar espera
+# unos minutos para que Supabase anote las descargas de la versión vieja
+# (contar_descargas_archivadas, cada 5 minutos) y el contador de la web no baje.
+
+name: Dejar solo la última versión
+
+on:
+  release:
+    types: [published]
+  schedule:
+    - cron: '0 6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  limpiar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Esperar a que se anoten las descargas
+        run: sleep 420
+
+      - name: Borrar las versiones anteriores
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          ultima=$(gh release view --json tagName --jq .tagName)
+          echo "Queda: $ultima"
+          # Los borradores no se tocan: puede ser una versión que se está armando.
+          gh release list --limit 1000 --json tagName,isDraft --jq '.[] | select(.isDraft | not) | .tagName' |
+          while read -r tag; do
+            if [ "$tag" != "$ultima" ]; then
+              gh release delete "$tag" --yes
+              echo "Borrada: $tag"
+            fi
+          done
