@@ -26,14 +26,23 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
           GH_REPO: ${{ github.repository }}
+        shell: bash
         run: |
-          ultima=$(gh release view --json tagName --jq .tagName)
+          set -euo pipefail
+
+          ultima=$(gh release list --limit 1000 --json tagName,isDraft,isLatest --jq '.[] | select(.isDraft == false and .isLatest == true) | .tagName' | head -n 1)
+
+          if [ -z "$ultima" ]; then
+            echo "No hay una release pública marcada como última. Nada que borrar."
+            exit 0
+          fi
+
           echo "Queda: $ultima"
+
           # Los borradores no se tocan: puede ser una versión que se está armando.
-          gh release list --limit 1000 --json tagName,isDraft --jq '.[] | select(.isDraft | not) | .tagName' |
-          while read -r tag; do
-            if [ "$tag" != "$ultima" ]; then
-              gh release delete "$tag" --yes
-              echo "Borrada: $tag"
-            fi
+          gh release list --limit 1000 --json tagName,isDraft,isLatest --jq '.[] | select(.isDraft == false and .isLatest == false) | .tagName' |
+          while IFS= read -r tag; do
+            [ -n "$tag" ] || continue
+            gh release delete "$tag" --yes
+            echo "Borrada: $tag"
           done
