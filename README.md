@@ -10,10 +10,10 @@
 [![Release](https://img.shields.io/github/v/release/ceitooo/ceitotweaks?label=%C3%BAltima%20versi%C3%B3n&color=8a3ffc)](https://github.com/ceitooo/ceitotweaks/releases/latest)
 [![Downloads](https://img.shields.io/github/downloads/ceitooo/ceitotweaks/total?color=b967ff)](https://github.com/ceitooo/ceitotweaks/releases)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![Idiomas](https://img.shields.io/badge/idiomas-7-ff5f8f)](#-idiomas)
+[![Idiomas](https://img.shields.io/badge/idiomas-7-ff5f8f)](#-idiomas-y-personalización)
 [![Discord](https://img.shields.io/badge/Discord-Comunidad-5865F2?logo=discord&logoColor=white)](https://discord.gg/4Hsfav6wy6)
 
-[Descargar](#-descarga) · [Funciones](#-funciones) · [Suite Gamer](#-suite-gamer-integrada) · [Modo Juego](#-modo-juego-automático) · [Premium](#-premium) · [FAQ](#-preguntas-frecuentes)
+[Descargar](#-descarga) · [Optimizar](#-optimizar) · [Programas propios](#-programas-optimizados-programas-propios) · [CeitoBrowser](#-ceitobrowser) · [Premium](#-premium) · [FAQ](#-preguntas-frecuentes)
 
 </div>
 
@@ -21,171 +21,265 @@
 
 ## ¿Qué es CeitoTweaks?
 
-**CeitoTweaks** es una aplicación integral de escritorio para Windows diseñada para jugadores y creadores. Reúne en una sola interfaz moderna todo lo que normalmente requiere decenas de scripts de procedencia dudosa o configuraciones manuales complejas: **más de 390 tweaks de sistema organizados**, optimización automática de placas de video (NVIDIA y AMD), un **Modo Juego automático**, diagnósticos de hardware en tiempo real, desinstalador inteligente con limpieza de restos, catálogo de apps, suites de práctica y herramientas gamer exclusivas.
+**CeitoTweaks** es una aplicación de escritorio para Windows pensada para jugadores y creadores. Junta en una sola interfaz todo lo que normalmente requiere decenas de scripts de dudosa procedencia, programas sueltos o configuraciones manuales:
 
-Todo con una interfaz intuitiva, en 7 idiomas, con recorrido guiado y sin tener que copiar y pegar comandos de terminal.
+- **436 tweaks de sistema** en 17 categorías, todos reversibles y con su nivel de riesgo.
+- **Optimizar todo en un clic** con perfiles según tu equipo y tu uso.
+- **Modo Juego automático** que optimiza la PC al abrir un juego y la deja como estaba al cerrarlo.
+- **Casi 50 programas propios** (grabador, clips, navegador, VPN, mira, entrenador de puntería, oficina y mucho más) que se instalan y se usan desde la misma app.
+- Diagnósticos en vivo, soluciones en un clic, limpieza, desinstalador con restos y catálogo de apps.
 
-> Este repositorio aloja los instaladores y versiones públicas — el código fuente de la app es privado.
+Todo en **7 idiomas**, con recorrido guiado y sin copiar y pegar comandos.
+
+> Este repositorio aloja los instaladores y versiones públicas. El código fuente de la app es privado.
 
 ---
 
 ## 📥 Descarga
 
-1. Andá a la sección **[Releases](https://github.com/ceitooo/ceitotweaks/releases/latest)**.
+1. Andá a **[Releases](https://github.com/ceitooo/ceitotweaks/releases/latest)**.
 2. Descargá el instalador oficial `CeitoTweaks-Setup-X.X.X.exe`.
-3. Ejecutalo (requiere permisos de administrador para interactuar con registros y servicios del sistema).
-4. Abrí CeitoTweaks. Las próximas versiones se actualizan de forma automática — la aplicación te avisa cuando hay una nueva actualización y qué novedades incluye.
+3. Ejecutalo (pide permisos de administrador para poder tocar registro, servicios y energía).
+4. Abrí CeitoTweaks. Las próximas versiones se **actualizan solas**: se bajan en segundo plano, se instalan al cerrar la app (o cuando dejás la PC sin usar) y nunca te interrumpen en medio de un juego.
 
-> **Requisitos:** Windows 10 u 11 (64 bits), permisos de administrador.
-> 
-> *Nota sobre Windows SmartScreen:* SmartScreen puede mostrar una advertencia de "editor desconocido" dado que la app no utiliza certificados comerciales EV anuales de alto costo. Esto es habitual en software libre y de desarrolladores independientes. El archivo es 100% seguro.
+> **Requisitos:** Windows 10 u 11 de 64 bits y permisos de administrador.
+>
+> *SmartScreen y antivirus:* como la app no usa un certificado comercial de firma, SmartScreen puede mostrar "editor desconocido" y algunos antivirus pueden marcar como sospechosas partes de la app que usan PowerShell (ver [Preguntas frecuentes](#-preguntas-frecuentes)). Son falsos positivos.
 
 ---
 
-## ✨ Funciones
+## ⚡ Optimizar
 
-### ⚡ Optimizar todo con un clic
-Elegís el perfil que mejor se adapta a tu uso —**Competitivo**, **Streaming** o **Notebook**— y la aplicación aplica al instante el combo ideal de optimizaciones recomendadas. Nunca aplica ajustes de riesgo por defecto y te ofrece crear un punto de restauración previo.
+### Optimizar todo con un clic
+Elegís un perfil y la app aplica el combo de optimizaciones recomendadas para tu caso. Cada perfil se puede **aplicar, desbloquear o revertir** con su propio botón, y antes te ofrece crear un punto de restauración.
 
-### 🛠️ Más de 390 tweaks del sistema
-Optimizaciones catalogadas rigurosamente en **16 categorías**:
-- **Rendimiento FPS & Latencia**
-- **Gráfica (GPU)** (NVIDIA, AMD e Intel)
-- **Red y WiFi** (reducción de bufferbloat, TCP/IP, optimización DNS)
-- **CPU y memoria** (gestión de hilos, afinidad, estacionamiento de núcleos)
-- **Planes de energía** (perfiles agresivos, Ceito Notebook Gamer, Ceito Silencioso)
-- **Windows & Sistema**
-- **Personalización visual**
-- **Segundo plano & Telemetría**
-- **Privacidad**
-- **Almacenamiento**
-- **Periféricos & USB**
-- **BIOS y drivers**
-- **Priorizar juegos**
-- **Optimizar Apps** (Chrome, Discord, Spotify, Steam, etc.)
-- **Drivers de Mouse** (configuraciones OpenMouse)
-- **Accesos directos**
+- **Competitivo:** máximo FPS y mínima latencia.
+- **Streaming:** rendimiento estable para jugar y transmitir a la vez.
+- **Notebook:** rendimiento sin destrozar la batería ni la temperatura.
+- **Gráficos integrados / APU:** para Ryzen serie G/U e Intel UHD/Iris, con detección automática del equipo.
 
-Cada tweak cuenta con su explicación detallada, botón de activación/desactivación reversible e indicador de nivel de riesgo (**Seguro**, **Precaución** o **Riesgoso**).
+Nunca aplica tweaks riesgosos por defecto.
+
+### 🛠️ 436 tweaks del sistema
+Organizados en **17 categorías**:
+
+| Categoría | Tweaks | Categoría | Tweaks |
+|---|---|---|---|
+| Red y WiFi | 45 | Priorizar juegos | 20 |
+| Segundo plano y telemetría | 45 | Energía | 19 |
+| Privacidad | 43 | Periféricos y USB | 19 |
+| Windows y sistema | 40 | Almacenamiento | 14 |
+| Personalizar Windows | 37 | Optimizar apps (Chrome, Discord, Spotify, Steam…) | 12 |
+| Drivers de mouse | 32 | Accesos directos | 10 |
+| Optimizar emuladores | 30 | BIOS y drivers | 5 |
+| Rendimiento FPS y latencia | 24 | | |
+| Gráfica (GPU: NVIDIA, AMD e Intel) | 21 | | |
+| CPU y memoria | 20 | | |
+
+Cada tweak tiene su explicación, un botón para activarlo o revertirlo, un indicador de riesgo (**Seguro**, **Precaución** o **Riesgoso**) y una ventana de detalle. Desde Inicio ves cuántos tenés aplicados sobre el total y cuántos te recomendamos.
 
 ### 🎮 Modo Juego automático
-Configurás tus títulos favoritos una sola vez: al iniciar cualquier juego de tu librería de **Steam, Epic Games o Battle.net**, CeitoTweaks:
-- Le asigna **prioridad de CPU alta** en tiempo real.
-- Aplica el **plan de energía de alto rendimiento** automáticamente.
-- **Silencia las notificaciones** molestas de Windows.
-- Opcionalmente **suspende o cierra procesos de fondo** (OneDrive, Teams, Widgets, Phone Link).
-- Aplica parámetros de lanzamiento optimizados.
+Al abrir un juego de tu biblioteca (**Steam, Epic Games o Battle.net**), CeitoTweaks:
+- le da **prioridad de CPU alta**;
+- pone el **plan de energía de alto rendimiento**;
+- **silencia las notificaciones** de Windows;
+- opcionalmente **suspende o cierra procesos de fondo** (OneDrive, Teams, Widgets, Vínculo móvil…);
+- libera RAM **sin tirones**: confirma que la presión de memoria se sostiene, purga primero lo de baja prioridad y protege el juego, el audio y la GPU.
 
-Al cerrar el juego, todos los valores vuelven automáticamente a su estado original y te informa el tiempo jugado.
+Al cerrar el juego todo vuelve a como estaba y te muestra el tiempo jugado.
 
----
+### 🌐 Conexiones
+- **DNS automático:** cambia el DNS solo cuando el tuyo no contesta o anda lento, y al apagarlo vuelve al que tenías.
+- Medidor de ping hacia los servidores de los juegos, test de velocidad y ajustes de red para bajar el ping y los picos.
 
-## 🎯 Suite Gamer Integrada
-
-CeitoTweaks no es solo un optimizador: incluye una suite completa de utilidades gamer construidas desde cero:
-
-- **CeitoCross (Mira Overlay):** Mira flotante ultraligera y personalizable sobre cualquier juego. Diseñá tu punto o cruz, ajustá grosor, gap, opacidad, color y exportá/importá códigos de miras de CS2, Valorant o Apex Legends.
-- **CeitoAim (Campo de tiro y Arena 1v1):** Entrenador de puntería y calentamiento en 3D integrado directo en la app. Incluye física balística, control de retroceso, selección de armas, cuchillos, skins, mapas y soporte para desafiar amigos en partidas 1v1.
-- **CeitoClip:** Capturadora rápida y ligera de jugadas y clips con avisos overlay en pantalla sin consumir recursos de fondo.
-- **CeitoVIA:** Asistente gamer inteligente integrado con soporte para comandos rápidos y voz.
-- **CeitoBoard & CeitoKeys:** Overlay de pulsación de teclas en pantalla para directos y emulador de sonido en tiempo real con switches mecánicos o sonido de motor.
-- **CeitoCursor:** Selector y calibrador de cursores de alta precisión para gaming competitivo.
-- **CeitoType:** Mini-juego de entrenamiento de velocidad de mecanografía y memoria muscular con el teclado.
-- **Filtro de Pantalla (LUT):** Modos de color y contraste competitivo para mejorar la visibilidad de enemigos o descanso visual nocturno, sin delay ni impacto en la tasa de cuadros por segundo.
-- **Calibrador de Mandos / Joysticks:** Medidor en vivo de zonas muertas y herramienta de diagnóstico/calibración de drift para mandos Sony DualSense/DualShock y Xbox.
-- **Ceitotify:** Integración directa de Spotify libre de publicidad con instalador y actualizador automático de parches de chunks.
-- **CeitoDown:** Centro de descarga de recursos, utilidades esenciales y librerías para gaming.
+### 🧰 Más herramientas
+- **36 soluciones en un clic:** SFC y DISM, reseteo de red y Winsock, DNS, cola de impresión, Windows Update, tirones y más.
+- **Limpieza:** temporales, reportes de error, caché de shaders y restos.
+- **Chequeo de PC:** latencia DPC (la causa número uno de los microcortes), drivers y estado del sistema.
+- **Debloat:** quitá las apps que vienen de fábrica.
+- **Desinstalador inteligente:** desinstala y busca restos en carpetas y en el registro.
+- **Apps de inicio:** elegí qué arranca con Windows.
+- **Puntos de restauración y backups:** y un botón de "Deshacer todo".
+- **Herramientas Pro:** modo MSI de interrupciones, afinidad de núcleos y ajustes avanzados de hardware.
+- **Pruebas:** mouse, teclado y mandos (incluida la medición de Hz de sondeo).
 
 ---
 
-## 📊 Diagnósticos y Monitoreo en Vivo
+## 🧩 Programas optimizados (programas propios)
 
-- **Widget Flotante:** Overlay discreto siempre visible encima de tus juegos con métricas de FPS, uso de CPU, GPU, VRAM, RAM y temperaturas.
-- **Detector de Cuello de Botella:** Monitoreo en vivo durante tus partidas para identificar con exactitud qué componente (procesador, placa de video, memoria o disco) está limitando tu tasa de cuadros.
-- **Chequeo de Salud del Sistema:** Análisis de latencia DPC (la causa #1 de microstuttering y drops de FPS), estado de drivers y degradación del sistema.
-- **Comprobador de Drivers de GPU:** Detección en vivo de nuevas versiones de drivers NVIDIA (conectado al servicio oficial de NVIDIA) y accesos directos para AMD e Intel.
-- **Medidor de Ping & Speedtest:** Test de velocidad de red de baja latencia y medidor de ping en vivo hacia los servidores de los principales juegos competitivos por región.
-- **Topología USB:** Mapeo de controladoras USB para conectar mouse y teclado en canales independientes y evitar saturación del bus.
+Programas hechos desde cero para CeitoTweaks, livianos y pensados para no robarle rendimiento al juego. Se abren desde el menú **Programas optimizados**, ordenados por categoría.
+
+### 🎮 Juegos
+- **CeitoAim:** entrenador 3D de puntería, reflejos y tracking, con estadísticas, armas, mapas y arena 1v1.
+- **CeitoCross:** tu propia mira encima de cualquier juego, con códigos de CS2 y Valorant.
+- **CeitoType:** test de velocidad de escritura con palabras por minuto y precisión.
+- **CeitoX:** usá el mando como teclado y mouse, con perfiles por juego.
+- **CeitoPad:** mandos de PlayStation, Xbox y Switch, con giroscopio, touchpad y calibración de drift.
+- **CeitoFG:** generación de cuadros para juegos en modo historia.
+- **CeitoRes:** armá tu resolución y tus Hz, y probá si tu monitor la aguanta (incluye FSR).
+- **CeitoTraductor:** traduce en vivo el texto de una zona de la pantalla mientras jugás.
+- **Sensibilidad:** pasá tu sensibilidad de un juego a otro y calibrá tu DPI.
+- **Config de juegos:** resolución estirada, configs pro y límite de FPS por juego.
+- **Filtro de pantalla:** color y contraste para ver mejor en juegos oscuros, sin delay.
+- **Biblioteca:** tus juegos de Steam, Epic y Battle.net en un solo lugar.
+- **Desafíos:** misiones diarias y retos de puntería para subir de nivel.
+
+### 🎬 Grabar y crear
+- **CeitoClip:** guardá los últimos segundos de juego con un atajo, sin perder FPS. Puede grabar solo una aplicación.
+- **CeitoRec:** grabador con escenas: juego, cámara, textos y audio por separado.
+- **CeitoShot y CeitoLens:** capturá una zona, marcala, tapá datos o copiá el texto que aparece.
+- **CeitoGif:** pasá un video a GIF eligiendo tramo, tamaño, FPS y velocidad.
+- **CeitoConvert:** convertí video, audio, imágenes y documentos sin subir nada a internet.
+- **CeitoMedia y CeitoLook:** reproductor rápido y vista previa de archivos en el Explorador.
+- **CeitoVIA:** mejorá y generá contenido para tus videos e imágenes con IA.
+- **CeitoDown:** bajá videos y música de redes sociales en alta calidad.
+- **CeitoQR:** códigos QR de links, WiFi, mail o WhatsApp, sin internet.
+
+### 🎧 Audio, teclado y mouse
+- **CeitoSound:** cancelación de ruido con IA y ecualizador para escuchar pasos.
+- **CeitoBoard:** mostrá en pantalla las teclas que apretás, para streams o práctica.
+- **CeitoKeys:** tu teclado suena como uno mecánico mientras escribís.
+- **CeitoLyrics:** la letra de la canción que suena, en una ventana encima del juego.
+- **Macros:** un atajo que hace varias cosas seguidas: abrir, escribir, silenciar.
+- **CeitoClicker:** clics automáticos con el intervalo exacto, con atajo y perfiles.
+- **CeitoTask:** grabá lo que hacés con el mouse y el teclado, y repetilo.
+
+### 🌐 Internet y remoto
+- **CeitoBrowser:** navegador liviano con bloqueador de anuncios que no frena tus juegos ([ver más](#-ceitobrowser)).
+- **CeitoVPN:** VPN gratis: WARP de Cloudflare o un país a elección.
+- **CeitoRoute:** DNS más rápido, ruta hasta el servidor del juego y conexión estable.
+- **CeitoDesk:** escritorio remoto entre dos PCs: pedí ayuda o manejá otra PC.
+- **CeitoScreenshare:** mirá y manejá tu celular Android en la PC, con sonido.
+
+### 🖥️ Escritorio
+- **CeitoWall:** fondos animados que se pausan solos cuando jugás.
+- **CeitoFlow:** con un atajo abrí apps, hacé cuentas y convertí unidades.
+- **CeitoFlyout:** panel desde arriba con volumen, brillo, notas y clima.
+- **CeitoPaste:** historial del portapapeles, con imágenes incluidas, a un atajo de distancia.
+- **CeitoBreaks:** recordatorios de pausa que no te sacan del juego.
+- **CeitoCursor:** cambiá el cursor de Windows: tamaño, estilo y estela.
+- **CeitoGameBar:** barra con accesos rápidos que queda siempre arriba y se reserva su espacio.
+
+### 🛡️ Sistema y seguridad
+- **CeitoShield:** tu antivirus manejado desde acá, usando Windows Defender.
+- **CeitoMonitor:** CPU, GPU, RAM y temperatura en vivo, con gráfico y widget flotante encima del juego.
+- **CeitoDiskInfo:** mirá la salud de tus discos, sin instalar nada.
+- **CeitoRecover:** buscá archivos borrados y recuperalos en otra unidad.
+- **CeitoBloatware:** quitá las apps que vienen de fábrica, con punto de restauración.
+
+### 📄 Oficina
+- **CeitoWrite:** documentos con estilos, tablas, imágenes y control de cambios. Abre y guarda Word, ODT y PDF.
+- **CeitoSheet:** planillas con fórmulas, gráficos, filtros y tablas dinámicas. Excel y ODS.
+- **CeitoSlides:** presentaciones con plantillas y transiciones. Exportá a PowerPoint, PDF o video.
 
 ---
 
-## 🖥️ Mantenimiento y Soluciones
+## 🌐 CeitoBrowser
 
-- **31 Soluciones en un Clic:** Reparación automática de errores frecuentes de Windows (reparación SFC y DISM, reseteo de red y Winsock, purga de DNS, limpieza de cola de impresión, reparación de Windows Update y solución a stuttering).
-- **Desinstalador Inteligente:** Desinstalá programas y escaneá residuos en carpetas ocultas y en el Registro de Windows, con análisis de seguridad mediante Windows Defender.
-- **Gestor de Inicio:** Controlá exactamente qué aplicaciones se inician con Windows para reducir tiempos de arranque.
-- **Limpieza del Sistema:** Liberá espacio borrando temporales, reportes de error, caché de shaders y archivos residuales.
-- **Puntos de Restauración & Backups:** Creá puntos de restauración del sistema con un clic y utilizá la función "Deshacer todo" para revertir cambios con total tranquilidad.
+Un navegador completo que corre como programa aparte (con su propio acceso directo y la opción de ser tu navegador predeterminado), pensado para no frenar tus juegos.
 
----
-
-## 📦 Catálogo de Apps y Herramientas
-
-- **+180 Aplicaciones de un Clic:** Catálogo verificado de navegadores, launchers de juegos, emuladores, software de streaming, utilidades y herramientas de diagnóstico.
-- **12 Programas Esenciales Preconfigurados:** Timer Resolution, Optimizer, FilterKeys Setter, AntimicroX, ISLC (Intelligent Standby List Cleaner), overclock de mandos, xCord y más.
-- **Optimizar Apps:** Desactivá aceleración por hardware innecesaria y procesos de fondo silenciosos en Discord, Spotify, Google Chrome, Microsoft Edge, Brave, Steam y Opera GX.
+- **Bloqueador de anuncios y rastreadores** con listas que se actualizan solas, protección contra malware y estafas, y salto de patrocinios en YouTube.
+- **Avisos de cookies** rechazados solos ("solo necesarias") y sin trabar el scroll.
+- **Protección contra huellas digitales**, "No rastrear", limpieza de links de rastreo y sin AMP.
+- **Modo nitidez y fluidez** para videos e imágenes (realce tipo FSR, más cuadros por segundo y desenfoque de movimiento), y **velocidad de video de 0,1x a 4x**.
+- **Guardar y compartir:** guardar la página (HTML completo, un solo archivo o PDF), captura de pantalla, instalar una página como app, crear accesos directos, copiar el vínculo y código QR.
+- **Perfiles** separados, **cuentas de Google**, **gestor de contraseñas** con importación, **incógnito**, historial, favoritos y descargas.
+- **Extensiones de Chrome** y **userscripts**.
+- **Barra lateral** con WhatsApp, Gmail, Discord, Telegram, Messenger, Instagram y más.
+- Pestañas que duermen para ahorrar RAM, administrador de pestañas, dividir pantalla, modo lectura, versión móvil, traducir página, imagen en imagen y "Descargar con CeitoDown".
 
 ---
 
-## ✨ Perfil, Comunidad y Cloud
+## 🔗 Integraciones
 
-- **Perfil Personalizado:** Foto, banner, descripción, nivel y registro de logros de optimización.
-- **Ranking Global (CeitoBench):** Medí el rendimiento de tu PC y compará tus resultados con la comunidad.
-- **Modos Community:** Explorá perfiles de configuración compartidos por otros usuarios, votá y publicá los tuyos.
-- **Mis Settings:** Guardá y exportá tus configuraciones favoritas para llevarlas a cualquier PC.
-- **Gestión de HWID (Hardware ID):** Si formateás tu computadora o cambiás componentes, podés desvincular tu hardware anterior desde la app con un solo clic; tu cuenta Premium se re-enganchará automáticamente a tu nueva PC sin perder tus días ni tu licencia.
+- **Ceitotify:** Spotify sin publicidad, con instalador y actualización automática del parche.
+- **Vencord + StreamEnhance (opcional):** instala Vencord en Discord, lo mantiene actualizado y lo vuelve a parchear si Discord se actualiza.
+- **Estado de Discord:** mostrá "Jugando CeitoTweaks" en tu perfil, con tu usuario, la versión y el tiempo jugado (desde Personalizar).
+- **Optimizar apps:** saca la aceleración por hardware innecesaria y los procesos de fondo de Discord, Spotify, Chrome, Edge, Brave, Steam y Opera GX.
 
 ---
 
-## 🌍 Idiomas y Personalización
+## 📦 Catálogo de apps
 
-- **7 Idiomas Soportados:** Español, Inglés, Ruso, Chino, Japonés, Coreano y Portugués.
-- **Customización Visual Completa:** Temas Oscuro, Claro, Carmesí, OLED y Medianoche, selector libre de color de acento, tipografías y fondos animados.
-- **Voz de Bienvenida Offline:** Voces naturales que saludan al iniciar la app, funcionando 100% de forma local.
-- **Modo Liviano:** Opción para desactivar efectos visuales y animaciones de la interfaz, logrando un consumo prácticamente nulo de recursos mientras jugás.
+- **Más de 180 apps en un clic:** navegadores, launchers, emuladores, streaming, utilidades y diagnóstico.
+- **14 programas esenciales preconfigurados:** Timer Resolution, ISLC, FilterKeys Setter, AntimicroX, overclock de mandos y más.
+- **Descargas y ofertas:** juegos en descuento y recursos útiles.
+
+---
+
+## 👤 Perfil y comunidad
+
+- **Perfil personalizado:** foto, banner, efectos, insignias, nivel y **música de perfil**.
+- **Ranking global (CeitoBench):** medí tu PC y comparate con la comunidad.
+- **Community:** perfiles de configuración compartidos por otros usuarios para votar y publicar los tuyos.
+- **Mis Settings:** guardá tus configuraciones y llevalas a cualquier PC.
+- **Reseñas:** dejá tu opinión desde Inicio.
+- **Cambio de PC sin perder Premium:** desvinculá tu hardware anterior con un clic y tu licencia pasa sola a la PC nueva.
+
+---
+
+## 🤖 Asistente y búsqueda
+
+- **Asistente IA:** responde preguntas técnicas teniendo en cuenta tu equipo (incluidas las PCs con gráficos integrados).
+- **Buscador rápido (Ctrl+K):** encontrá cualquier tweak, programa o sección al instante.
+
+---
+
+## 🌍 Idiomas y personalización
+
+- **7 idiomas:** español, inglés, portugués, ruso, chino, japonés y coreano.
+- **Temas:** Oscuro, Claro, Carmesí, OLED y Medianoche, color de acento libre, tipografías y fondos animados.
+- **Barra lateral personalizable:** fijala o dejala desplegable desde Customizar.
+- **Voz de bienvenida offline** y **Modo liviano** sin efectos visuales para gastar lo mínimo mientras jugás.
 
 ---
 
 ## ⭐ Premium
 
-La gran mayoría de CeitoTweaks —más de 300 tweaks, Optimizar todo, el Modo Juego base, la suite de herramientas, el instalador de programas, el desinstalador, las soluciones y la limpieza— es **100% gratuita**.
+La gran mayoría de CeitoTweaks es **gratis**: más de 360 tweaks, Optimizar todo, el Modo Juego, los programas propios, el instalador de apps, el desinstalador, las soluciones y la limpieza.
 
-Para usuarios que buscan exprimir hasta el último FPS, el plan **Premium** desbloquea:
-- Tweaks de rendimiento extremo y parámetros de lanzamiento avanzados.
-- Funciones pro en la Suite Gamer y personalización estética avanzada del perfil.
-- Acceso prioritario a novedades en versión beta.
-- Soporte para claves temporales y licencias vitalicias (Lifetime). Métodos de pago flexibles mediante Mercado Pago y Binance Pay.
+**Premium** suma:
+- los tweaks de rendimiento extremo (71) y parámetros de lanzamiento avanzados;
+- funciones extra en los programas y personalización avanzada del perfil;
+- acceso anticipado a novedades.
+
+Hay planes por tiempo y **de por vida (Lifetime)**. Para pagar, la app elige sola el método de tu país (por ejemplo Mercado Pago en Argentina y Uruguay o Yape en Perú) y también tiene métodos internacionales.
 
 ---
 
 ## ❓ Preguntas frecuentes
 
 **¿Es seguro usar CeitoTweaks?**
-Sí. Todos los tweaks aplican modificaciones reversibles sobre parámetros estándar de Windows (Registro, directivas y servicios). Cada tweak cuenta con una clasificación clara (**Seguro**, **Precaución**, **Riesgoso**) y la app te permite crear un punto de restauración antes de aplicar cambios.
+Sí. Los tweaks cambian parámetros estándar de Windows (registro, directivas y servicios), todos se pueden revertir y cada uno indica su nivel de riesgo. Antes de aplicar cambios grandes, la app te ofrece crear un punto de restauración.
 
-**¿Por qué solicita permisos de administrador?**
-Modificar planes de energía, servicios del sistema, directivas de red y claves de registro requiere privilegios elevados en Windows. Sin estos permisos, el sistema operativo rechaza las optimizaciones.
+**Mi antivirus dice que hay un troyano (por ejemplo "HEUR:Trojan.PowerShell…").**
+Es un falso positivo de la detección heurística. Algunas funciones (atajos de teclado globales, audio de CeitoClip, filtro de pantalla, medición de mandos) usan PowerShell con funciones de Windows, y eso a veces se confunde con malware. Si te pasa, restaurá los archivos desde la cuarentena y agregá la carpeta de CeitoTweaks (`%LOCALAPPDATA%\Programs\ceitotweaks`) a las exclusiones de tu antivirus.
+
+**No se instalan las actualizaciones automáticas.**
+Casi siempre es el antivirus bloqueando el instalador nuevo. Revisá el **Historial de protección** de Seguridad de Windows (o el de tu antivirus), permití lo de CeitoTweaks y agregá la carpeta a las exclusiones. No hace falta apagar SmartScreen ni el "Control inteligente de aplicaciones".
+
+**¿Por qué pide permisos de administrador?**
+Cambiar planes de energía, servicios, red y registro requiere permisos elevados en Windows. Sin ellos, el sistema rechaza las optimizaciones.
 
 **¿Funciona en Windows 7 u 8?**
-No. CeitoTweaks está desarrollado y testeado específicamente para **Windows 10 y Windows 11 (64 bits)**.
+No. CeitoTweaks está hecho y probado para **Windows 10 y 11 de 64 bits**.
 
-**¿Qué pasa con mi Premium si cambio de PC o formateo Windows?**
-No perdés nada. Podés desvincular tu PC anterior con el botón de "Reset HWID" y la próxima vez que apliques un tweak o inicies sesión, tu licencia se vinculará de forma automática a tu nuevo hardware conservando todos tus días restantes.
+**¿Qué pasa con mi Premium si cambio de PC o formateo?**
+No perdés nada. Desvinculá la PC anterior con "Reset HWID" y tu licencia se vincula sola a la nueva, con todos tus días.
 
 ---
 
-## 🤝 Soporte y Comunidad
+## 🤝 Soporte y comunidad
 
-¿Encontraste un problema o querés sugerir una nueva función?
-- 💬 **Discord Oficial:** Unite a nuestra comunidad en [discord.gg/4Hsfav6wy6](https://discord.gg/4Hsfav6wy6) para soporte directo, avisos y novedades.
-- 🐛 **Reportar un bug:** Abrí un [Issue en GitHub](https://github.com/ceitooo/ceitotweaks/issues).
+- 💬 **Discord oficial:** [discord.gg/4Hsfav6wy6](https://discord.gg/4Hsfav6wy6) para soporte, avisos y novedades.
+- 🐛 **Reportar un bug:** abrí un [Issue en GitHub](https://github.com/ceitooo/ceitotweaks/issues).
 
 ## 📄 Licencia
 
-Este proyecto está bajo la Licencia **MIT** — consultá el archivo [LICENSE](LICENSE) para más detalles.
+Este proyecto está bajo la licencia **MIT**. Consultá el archivo [LICENSE](LICENSE).
 
 ---
 
 <div align="center">
-<sub>Hecho con Electron. No afiliado comercialmente con Microsoft, NVIDIA, AMD, Intel, Steam, Epic Games ni Battle.net.</sub>
+<sub>Hecho con Electron. No afiliado comercialmente con Microsoft, NVIDIA, AMD, Intel, Valve, Epic Games, Battle.net, Spotify, Discord ni Cloudflare.</sub>
 </div>
